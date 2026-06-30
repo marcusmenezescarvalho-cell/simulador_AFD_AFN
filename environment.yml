@@ -1,0 +1,7 @@
+name: simulador-afd-afn
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.11

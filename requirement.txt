@@ -1,0 +1,6 @@
+# Projeto desenvolvido em Python
+# Não há dependências externas obrigatórias
+
+# Bibliotecas utilizadas:
+# tkinter
+# json
