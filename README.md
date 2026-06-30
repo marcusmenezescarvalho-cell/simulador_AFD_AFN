@@ -187,32 +187,42 @@ Exemplo de um AFN:
 ```
 
 ---
+## Requisitos
+
+- Python 3.11
+- Conda (Miniconda ou Anaconda)
 
 # Como Executar
 
-Clone o repositório.
+1. Clone o repositório.
 
 ```bash
 git clone https://github.com/marcusmenezescarvalho-cell/simulador_AFD_AFN.git
 ```
 
-Entre na pasta.
+2. Entre na pasta.
 
 ```bash
 cd simulador_AFD_AFN
 ```
 
-Instale as dependências.
+3. Crie o ambiente Conda.
 
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
-Execute.
+4. Ative o ambiente.
+
+```bash
+conda activate simulador-afd-afn
+```
+
+5. Execute o programa.
 
 ```bash
 python main.py
-``
+```
 
 # Como Utilizar
 
@@ -320,13 +330,9 @@ A implementação do AFN não contempla transições ε (epsilon), trabalhando a
 
 ---
 
-# Autores
 
 Projeto desenvolvido para a disciplina **Linguagens Formais e Autômatos**.
 
-**Integrantes do grupo:**
-
-- Marcus Vinicius Carvalho de Menezes
 ---
 
 # Licença
