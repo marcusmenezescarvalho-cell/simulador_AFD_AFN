@@ -143,6 +143,28 @@ Responsável pela leitura e carregamento do arquivo JSON contendo a definição 
 
 # Formato do Arquivo JSON
 
+ Exemplo de Arquivo JSON (AFD)
+
+```json
+{
+  "tipo": "AFD",
+  "estados": ["q0", "q1"],
+  "alfabeto": ["a", "b"],
+  "estado_inicial": "q0",
+  "estados_finais": ["q1"],
+  "transicoes": {
+    "q0": {
+      "a": "q1",
+      "b": "q0"
+    },
+    "q1": {
+      "a": "q1",
+      "b": "q0"
+    }
+  }
+}
+```
+
 Exemplo de um AFN:
 
 ```json
@@ -185,6 +207,15 @@ Exemplo de um AFN:
 
 }
 ```
+
+## Arquivos de Exemplo
+
+O projeto já contém arquivos JSON prontos para teste:
+
+- `teste_afd.json` – exemplo de Autômato Finito Determinístico (AFD).
+- `teste_afn.json` – exemplo de Autômato Finito Não Determinístico (AFN).
+
+Basta abrir um desses arquivos no simulador para realizar os testes.
 
 ---
 ## Requisitos
