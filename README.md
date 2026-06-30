@@ -193,22 +193,26 @@ Exemplo de um AFN:
 Clone o repositório.
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+git clone https://github.com/marcusmenezescarvalho-cell/simulador_AFD_AFN.git
 ```
 
 Entre na pasta.
 
 ```bash
-cd Simulador_AFD_AFN
+cd simulador_AFD_AFN
 ```
 
-Execute:
+Instale as dependências.
+
+```bash
+pip install -r requirements.txt
+```
+
+Execute.
 
 ```bash
 python main.py
-```
-
----
+``
 
 # Como Utilizar
 
@@ -323,9 +327,6 @@ Projeto desenvolvido para a disciplina **Linguagens Formais e Autômatos**.
 **Integrantes do grupo:**
 
 - Marcus Vinicius Carvalho de Menezes
-- (Nome do Integrante 2)
-- (Nome do Integrante 3)
-
 ---
 
 # Licença
